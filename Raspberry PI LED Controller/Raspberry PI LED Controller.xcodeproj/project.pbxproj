@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		741DB43423619D3E00F7E26D /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741DB43323619D3E00F7E26D /* UIDevice.swift */; };
+		741DB43623619E1000F7E26D /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741DB43523619E1000F7E26D /* UIView.swift */; };
+		744FA0F523609725007283B2 /* LampViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 744FA0F223609724007283B2 /* LampViewController.xib */; };
+		744FA0F623609725007283B2 /* NotificationBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744FA0F323609725007283B2 /* NotificationBanner.swift */; };
+		744FA0F723609725007283B2 /* LampViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744FA0F423609725007283B2 /* LampViewController.swift */; };
+		744FA0FA2360973F007283B2 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744FA0F82360973F007283B2 /* UIColor.swift */; };
+		744FA0FB2360973F007283B2 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744FA0F92360973F007283B2 /* UIImage.swift */; };
+		74796DE6235DFA2200F301DE /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74796DE5235DFA2200F301DE /* ViewModel.swift */; };
+		74F24137234CBE82008322AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F24136234CBE82008322AA /* AppDelegate.swift */; };
+		74F24139234CBE82008322AA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F24138234CBE82008322AA /* SceneDelegate.swift */; };
+		74F24140234CBE83008322AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74F2413F234CBE83008322AA /* Assets.xcassets */; };
+		74F24143234CBE83008322AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74F24141234CBE83008322AA /* LaunchScreen.storyboard */; };
+		74F24373234E1A22008322AA /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F2436F234E1A21008322AA /* PreviewView.swift */; };
+		74F24374234E1A22008322AA /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F24370234E1A21008322AA /* GradientView.swift */; };
+		74F24375234E1A22008322AA /* ColorSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F24371234E1A21008322AA /* ColorSlider.swift */; };
+		74F24376234E1A22008322AA /* DefaultPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F24372234E1A21008322AA /* DefaultPreviewView.swift */; };
+		74F2437A234E1A2A008322AA /* ColorSliderExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F24377234E1A2A008322AA /* ColorSliderExtensions.swift */; };
+		74F2437B234E1A2A008322AA /* HSBColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F24378234E1A2A008322AA /* HSBColor.swift */; };
+		74F2437C234E1A2A008322AA /* Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F24379234E1A2A008322AA /* Gradient.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		741DB43323619D3E00F7E26D /* UIDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDevice.swift; sourceTree = "<group>"; };
+		741DB43523619E1000F7E26D /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		744FA0F223609724007283B2 /* LampViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LampViewController.xib; sourceTree = "<group>"; };
+		744FA0F323609725007283B2 /* NotificationBanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationBanner.swift; sourceTree = "<group>"; };
+		744FA0F423609725007283B2 /* LampViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LampViewController.swift; sourceTree = "<group>"; };
+		744FA0F82360973F007283B2 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		744FA0F92360973F007283B2 /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		744FA0FC23609C38007283B2 /* LED Controller.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "LED Controller.entitlements"; sourceTree = "<group>"; };
+		74796DE5235DFA2200F301DE /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		74F24133234CBE82008322AA /* LED Controller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LED Controller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74F24136234CBE82008322AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74F24138234CBE82008322AA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		74F2413F234CBE83008322AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74F24142234CBE83008322AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74F2436F234E1A21008322AA /* PreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		74F24370234E1A21008322AA /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		74F24371234E1A21008322AA /* ColorSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorSlider.swift; sourceTree = "<group>"; };
+		74F24372234E1A21008322AA /* DefaultPreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultPreviewView.swift; sourceTree = "<group>"; };
+		74F24377234E1A2A008322AA /* ColorSliderExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorSliderExtensions.swift; sourceTree = "<group>"; };
+		74F24378234E1A2A008322AA /* HSBColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSBColor.swift; sourceTree = "<group>"; };
+		74F24379234E1A2A008322AA /* Gradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gradient.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74F24130234CBE82008322AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		741DB43723619F7B00F7E26D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				744FA0F82360973F007283B2 /* UIColor.swift */,
+				744FA0F92360973F007283B2 /* UIImage.swift */,
+				741DB43323619D3E00F7E26D /* UIDevice.swift */,
+				741DB43523619E1000F7E26D /* UIView.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		741DB43823619F9200F7E26D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				74F24136234CBE82008322AA /* AppDelegate.swift */,
+				74F24138234CBE82008322AA /* SceneDelegate.swift */,
+				74F2413F234CBE83008322AA /* Assets.xcassets */,
+				74F24141234CBE83008322AA /* LaunchScreen.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		741DB43923619FA800F7E26D /* ControlScreen */ = {
+			isa = PBXGroup;
+			children = (
+				744FA0F423609725007283B2 /* LampViewController.swift */,
+				744FA0F223609724007283B2 /* LampViewController.xib */,
+				74796DE5235DFA2200F301DE /* ViewModel.swift */,
+			);
+			path = ControlScreen;
+			sourceTree = "<group>";
+		};
+		741DB43A23619FB400F7E26D /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				744FA0F323609725007283B2 /* NotificationBanner.swift */,
+				74F2436E234E1A17008322AA /* Color Slider */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		74F2412A234CBE82008322AA = {
+			isa = PBXGroup;
+			children = (
+				74F24135234CBE82008322AA /* Raspberry PI LED Controller */,
+				74F24134234CBE82008322AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74F24134234CBE82008322AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74F24133234CBE82008322AA /* LED Controller.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74F24135234CBE82008322AA /* Raspberry PI LED Controller */ = {
+			isa = PBXGroup;
+			children = (
+				744FA0FC23609C38007283B2 /* LED Controller.entitlements */,
+				741DB43823619F9200F7E26D /* Main */,
+				741DB43923619FA800F7E26D /* ControlScreen */,
+				741DB43A23619FB400F7E26D /* Component */,
+				741DB43723619F7B00F7E26D /* Extension */,
+			);
+			path = "Raspberry PI LED Controller";
+			sourceTree = "<group>";
+		};
+		74F2436E234E1A17008322AA /* Color Slider */ = {
+			isa = PBXGroup;
+			children = (
+				74F24379234E1A2A008322AA /* Gradient.swift */,
+				74F24377234E1A2A008322AA /* ColorSliderExtensions.swift */,
+				74F24378234E1A2A008322AA /* HSBColor.swift */,
+				74F2436F234E1A21008322AA /* PreviewView.swift */,
+				74F24371234E1A21008322AA /* ColorSlider.swift */,
+				74F24370234E1A21008322AA /* GradientView.swift */,
+				74F24372234E1A21008322AA /* DefaultPreviewView.swift */,
+			);
+			name = "Color Slider";
+			path = "../Color Slider";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74F24132234CBE82008322AA /* Raspberry PI LED Controller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74F24147234CBE83008322AA /* Build configuration list for PBXNativeTarget "Raspberry PI LED Controller" */;
+			buildPhases = (
+				74F2412F234CBE82008322AA /* Sources */,
+				74F24130234CBE82008322AA /* Frameworks */,
+				74F24131234CBE82008322AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Raspberry PI LED Controller";
+			productName = "Raspberry PI LED Controller";
+			productReference = 74F24133234CBE82008322AA /* LED Controller.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74F2412B234CBE82008322AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Kevin Chromik";
+				TargetAttributes = {
+					74F24132234CBE82008322AA = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 74F2412E234CBE82008322AA /* Build configuration list for PBXProject "Raspberry PI LED Controller" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74F2412A234CBE82008322AA;
+			productRefGroup = 74F24134234CBE82008322AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74F24132234CBE82008322AA /* Raspberry PI LED Controller */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74F24131234CBE82008322AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				744FA0F523609725007283B2 /* LampViewController.xib in Resources */,
+				74F24143234CBE83008322AA /* LaunchScreen.storyboard in Resources */,
+				74F24140234CBE83008322AA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74F2412F234CBE82008322AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74F2437A234E1A2A008322AA /* ColorSliderExtensions.swift in Sources */,
+				744FA0F723609725007283B2 /* LampViewController.swift in Sources */,
+				74F24376234E1A22008322AA /* DefaultPreviewView.swift in Sources */,
+				74F24373234E1A22008322AA /* PreviewView.swift in Sources */,
+				744FA0FA2360973F007283B2 /* UIColor.swift in Sources */,
+				744FA0FB2360973F007283B2 /* UIImage.swift in Sources */,
+				741DB43423619D3E00F7E26D /* UIDevice.swift in Sources */,
+				74F2437B234E1A2A008322AA /* HSBColor.swift in Sources */,
+				74F2437C234E1A2A008322AA /* Gradient.swift in Sources */,
+				74F24374234E1A22008322AA /* GradientView.swift in Sources */,
+				744FA0F623609725007283B2 /* NotificationBanner.swift in Sources */,
+				74F24137234CBE82008322AA /* AppDelegate.swift in Sources */,
+				741DB43623619E1000F7E26D /* UIView.swift in Sources */,
+				74F24375234E1A22008322AA /* ColorSlider.swift in Sources */,
+				74796DE6235DFA2200F301DE /* ViewModel.swift in Sources */,
+				74F24139234CBE82008322AA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		74F24141234CBE83008322AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74F24142234CBE83008322AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74F24145234CBE83008322AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		74F24146234CBE83008322AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74F24148234CBE83008322AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Raspberry PI LED Controller/LED Controller.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DEVELOPMENT_TEAM = 7HFRDKKUCK;
+				INFOPLIST_FILE = "Raspberry PI LED Controller/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kchromik.Raspberry-PI-LED-Controller";
+				PRODUCT_NAME = "LED Controller";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		74F24149234CBE83008322AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Raspberry PI LED Controller/LED Controller.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DEVELOPMENT_TEAM = 7HFRDKKUCK;
+				INFOPLIST_FILE = "Raspberry PI LED Controller/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kchromik.Raspberry-PI-LED-Controller";
+				PRODUCT_NAME = "LED Controller";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74F2412E234CBE82008322AA /* Build configuration list for PBXProject "Raspberry PI LED Controller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74F24145234CBE83008322AA /* Debug */,
+				74F24146234CBE83008322AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74F24147234CBE83008322AA /* Build configuration list for PBXNativeTarget "Raspberry PI LED Controller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74F24148234CBE83008322AA /* Debug */,
+				74F24149234CBE83008322AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74F2412B234CBE82008322AA /* Project object */;
+}

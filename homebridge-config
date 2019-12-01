@@ -1,0 +1,22 @@
+"accessories": [
+        {
+            "accessory": "HTTP-LIGHTBULB",
+            "name": "Wall Light",
+            "debug": true,
+            "onUrl": "http://localhost:8080/led/on",
+            "offUrl": "http://localhost:8080/led/off",
+            "statusUrl": "http://localhost:8080/led/status",
+            "hue": {
+                "setUrl": "http://localhost:8080/led/hue/%s",
+                "statusUrl": "http://localhost:8080/led/hue/current/status"
+            },
+            "brightness": {
+                "setUrl": "http://localhost:8080/led/brightness/set/%s",
+                "statusUrl": "http://localhost:8080/led/brightness/get"
+            },
+            "saturation": {
+                "setUrl": "http://localhost:8080/led/saturation/set/%s",
+                "statusUrl": "http://localhost:8080/led/saturation/get"
+            }
+        }
+  ]
