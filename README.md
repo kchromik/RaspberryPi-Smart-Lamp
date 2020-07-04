@@ -15,7 +15,7 @@ On the Raspberry PI you must run [Raspbian](https://www.raspbian.org) and connec
 First step is to install Swift by adding the swift-arm repo:
 
 ```shell
-curl -s "https://packagecloud.io/install/repositories/swift-arm/release/script.deb.sh>""| sudo bash
+curl -s "https://packagecloud.io/install/repositories/swift-arm/release/script.deb.sh"| sudo bash
 ```
 
 Followed by installing Swift itself.
